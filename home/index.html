@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h4>Gangzar Agas</h4>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <button class="contact-button">Contact Me</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>I Happy for learn something new</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <img src="../assets/foto-agas.png" alt="Profile Picture" class="hero-image" width="332" height="505">
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <div class="container">
+            <div class="skills-container">
+                <h2 class="about-title">My Expertise</h2>
+                <div class="skill-card">
+                    <img src="../assets/java.png" alt="Java Logo" width="139.67" height="139.17">
+                    <h3>Java Programming</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="../assets/git.png" alt="Github Logo" width="139.67" height="139.17">
+                    <h3>Github</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="../assets/postgres.png" alt="PostgreSQL Logo" width="139.67" height="139.17">
+                    <h3>PostgreSQL</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="../assets/springboot.svg" alt="Spring Framework Logo" width="139.67" height="139.17">
+                    <h3>Spring Framework</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <img src="../assets/agas-cycling.png.jpeg" alt="About Image" class="about-image">
+            <div class="about-text">
+                <h3 class="about-subtitle">About</h3>
+                <h2 class="about-title">About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+                <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-cards">
+                <div class="card">
+                    <h3>Alexa</h3>
+                    <p>Project description here.</p>
+                </div>
+                <div class="card">
+                    <h3>App Dashboard</h3>
+                    <p>Project description here.</p>
+                </div>
+                <div class="card">
+                    <h3>Easy Rent</h3>
+                    <p>Project description here.</p>
+                </div>
+            </div>
+            <a href="#" class="btn view-all">View All Portfolio</a>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonial">
+        <div class="container">
+            <h2>Customer testimonials</h2>
+            <div class="testimonial-cards">
+                <div class="card">
+                    <p>Testimonial content here.</p>
+                    <p>- Agnes Tylor</p>
+                </div>
+                <div class="card">
+                    <p>Testimonial content here.</p>
+                    <p>- Michel Jhonson</p>
+                </div>
+                <div class="card">
+                    <p>Testimonial content here.</p>
+                    <p>- Rayan Wilson</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">First name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="newsletter"> Subscribe to newsletter
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <p>&copy; 2024 Personal Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
