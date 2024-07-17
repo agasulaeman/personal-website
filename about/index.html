@@ -3,31 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gangzar Agas S</title>
-    <link rel="stylesheet" href="about.css">
+    <title>Personal Website Gangzar Agas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Gangzar Agas S</h1>
-        <nav>
-            <ul>
-                <li><a href="../home/index.html">Home</a></li>
-                <li><a href="../about/index.html">About Me</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="../contact/index.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h4>Gangzar Agas</h4>
+            <nav>
+                <ul>
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a href="#testimonial">Blog</a></li>
+                    <li><a href="../contact/index.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="../contact/index.html">
+                <button class="contact-button">Contact Me</button>
+            </a>
+        </div>
     </header>
-    <main>
-        <section class="intro">
-            <p>I Love learn Something new and Explore about new technologies and implement it how it can be works</p>
-        </section>
-        <section class="details">
-            <h2>About Me</h2>
-            <p>I'm Bachelor Degree From Gunadarma University</p>
-            <p>I Have Experience as Backend Developer in 2 years</p>
-            <h2>Tech Stacks</h2>
-        </section>
-    </main>
+
+    <section class="skills-expertise">
+        <div class="container">
+            <h2 class="skills-title">My Skills</h2>
+            <h1 class="expertise-title">My Expertise</h1>
+        </div>
+    </section>    
+    <section class="skills-section">
+        <div class="container">
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="../assets/java.png" alt="Java Logo" width="139.67" height="139.17">
+                    <h3>Java Programming</h3>
+                    <p>I Have experience in Java Programming Language</p>
+                </div>
+                <div class="skill-card">
+                    <img src="../assets/git.png" alt="Github Logo" width="139.67" height="139.17">
+                    <h3>Github</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="../assets/postgres.png" alt="PostgreSQL Logo" width="139.67" height="139.17">
+                    <h3>PostgreSQL</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="../assets/springboot.svg" alt="Spring Framework Logo" width="139.67" height="139.17">
+                    <h3>Spring Framework</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <img src="../assets/agas-cycling.png.jpeg" alt="About Image" class="about-image">
+            <div class="about-text">
+                <h3 class="about-subtitle">About</h3>
+                <h2 class="about-title">About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+                <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="https://github.com/agasulaeman">
+                        <img src="../assets/git.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/agasulaeman/">
+                        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://t.me/agasulaemann">
+                        <img src="https://cdn.pixabay.com/photo/2021/12/27/10/50/telegram-icon-6896828_1280.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://medium.com/@gangzaragas">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkjj0ss21U5WM8w7eJxO-73cffXy8uHVx7MA&s" width="25" height="25">
+                    </a></li>
+                </ul>
+            </div>
+            <p>&copy; 2024 Gangzar Agas. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

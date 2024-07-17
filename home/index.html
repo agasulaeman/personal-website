@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>Personal Website Gangzar Agas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,37 +12,48 @@
             <h4>Gangzar Agas</h4>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#testimonial">Testimonial</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <button class="contact-button">Contact Me</button>
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a href="#testimonial">Blog</a></li>
+                    <li><a href="../contact/index.html">Contact</a></li>
                 </ul>
             </nav>
+            <a href="../contact/index.html">
+                <button class="contact-button">Contact Me</button></a>
         </div>
     </header>
-
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
+                    <h3>Hey all, My Name Gangzar agas</h3>
+                    <br>
+                    <br>
                     <h1>I Happy for learn something new</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="btn">Read More</a>
+                    <p>I’m Happy learning something new especially for new technologies</p>
+                    <br>
+                    <br>
+                    <a href="../about/index.html" class="btn">Read More</a>
                 </div>
                 <img src="../assets/foto-agas.png" alt="Profile Picture" class="hero-image" width="332" height="505">
             </div>
         </div>
     </section>
-
+            <section class="skills-expertise">
+                <div class="container">
+                    <h2 class="skills-title">My Skills</h2>
+                    <h1 class="expertise-title">My Expertise</h1>
+                </div>
+            </section>    
+        </div>
     <section class="skills-section">
         <div class="container">
             <div class="skills-container">
-                <h2 class="about-title">My Expertise</h2>
                 <div class="skill-card">
                     <img src="../assets/java.png" alt="Java Logo" width="139.67" height="139.17">
                     <h3>Java Programming</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <br>
+                    <p>I Have experience in Java Programming Language</p>
                 </div>
                 <div class="skill-card">
                     <img src="../assets/git.png" alt="Github Logo" width="139.67" height="139.17">
@@ -76,9 +87,9 @@
     </section>
     
 
-    <section class="portfolio" id="portfolio">
+    <!-- <section class="portfolio" id="portfolio">
         <div class="container">
-            <h2>My Portfolio</h2>
+            <h2>My Article</h2>
             <div class="portfolio-cards">
                 <div class="card">
                     <h3>Alexa</h3>
@@ -95,9 +106,9 @@
             </div>
             <a href="#" class="btn view-all">View All Portfolio</a>
         </div>
-    </section>
+    </section> -->
 
-    <section class="testimonials" id="testimonial">
+    <!-- <section class="testimonials" id="testimonial">
         <div class="container">
             <h2>Customer testimonials</h2>
             <div class="testimonial-cards">
@@ -115,53 +126,61 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="contact" id="contact">
-        <div class="container">
-            <h2>Contact me</h2>
-            <form>
-                <div class="form-group">
-                    <label for="name">First name</label>
-                    <input type="text" id="name" name="name">
-                </div>
-                <div class="form-group">
-                    <label for="last-name">Last name</label>
-                    <input type="text" id="last-name" name="last-name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
-                </div>
-                <div class="form-group">
-                    <label>
-                        <input type="checkbox" name="newsletter"> Subscribe to newsletter
-                    </label>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <h1>Contact me</h1>
+        <p>Let's make friendship for each other</p>
+        <form>
+            <div class="form-group">
+                <input type="text" id="first-name" name="first-name" placeholder="First name">
+                <input type="text" id="last-name" name="last-name" placeholder="Last name">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <input type="tel" id="phone" name="phone" placeholder="Phone number">
+            </div>
+            <div class="form-group">
+                <select id="topic" name="topic">
+                    <option value="">Select one...</option>
+                    <option value="general">General</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Type your message..."></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I accept the terms</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     </section>
 
     <footer>
         <div class="container">
             <div class="footer-nav">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#testimonial">Testimonial</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://github.com/agasulaeman">
+                        <img src="../assets/git.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/agasulaeman/">
+                        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://t.me/agasulaemann">
+                        <img src="https://cdn.pixabay.com/photo/2021/12/27/10/50/telegram-icon-6896828_1280.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://medium.com/@gangzaragas">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkjj0ss21U5WM8w7eJxO-73cffXy8uHVx7MA&s" width="25" height="25">
+                    </a></li>
                 </ul>
             </div>
-            <p>&copy; 2024 Personal Website. All rights reserved.</p>
+            <p>&copy; 2024 Gangzar Agas. All rights reserved.</p>
         </div>
     </footer>
 </body>

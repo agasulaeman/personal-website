@@ -3,45 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="contact.css">
+    <title>Personal Website Gangzar Agas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../home/index.html">Home</a></li>
-                <li><a href="../about/index.html">About Me</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="../contact/index.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h4>Gangzar Agas</h4>
+            <nav>
+                <ul>
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a href="#testimonial">Blog</a></li>
+                    <li><a href="../contact/index.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="../contact/index.html">
+                <button class="contact-button">Contact Me</button>
+            </a>
+        </div>
     </header>
-    <main>
-        <section class="contact-section">
-            <div class="contact-info">
-                <h1>Gangzar Agas S</h1>
-                <p>Don’t Be Shy</p>
-                <h2>Let’s Talk and make networking with me</h2>
-            </div>
-            <div class="contact-form">
-                <form action="#">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="surname">Surname</label>
-                    <input type="text" id="surname" name="surname" required>
-                    
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">First name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+                <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                    
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
-                    
-                    <button type="submit">Submit</button>
-                </form>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="newsletter"> Subscribe to newsletter
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="https://github.com/agasulaeman">
+                        <img src="../assets/git.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/agasulaeman/">
+                        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://t.me/agasulaemann">
+                        <img src="https://cdn.pixabay.com/photo/2021/12/27/10/50/telegram-icon-6896828_1280.png" width="25" height="25">
+                    </a></li>
+                    <li><a href="https://medium.com/@gangzaragas">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkjj0ss21U5WM8w7eJxO-73cffXy8uHVx7MA&s" width="25" height="25">
+                    </a></li>
+                </ul>
             </div>
-        </section>
-    </main>
+            <p>&copy; 2024 Gangzar Agas. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
