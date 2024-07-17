@@ -47,6 +47,70 @@ header .contact-button :hover {
     color: white;
 }
 
+.skills-expertise {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.skills-expertise .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.skills-title {
+    color: #6c63ff;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.expertise-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills-section {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    flex: 1 1 20%;
+    max-width: 22%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 2rem;
+    margin: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.skill-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.skill-card p {
+    font-size: 1rem;
+    color: #666;
+}
 .hero {
     background-color: #e9ecef;
     padding: 4rem 0;
@@ -67,9 +131,6 @@ header .contact-button :hover {
 
 .hero-text {
     max-width: 30%;
-}
-.hero-text h1 {
-    text-size-adjust: 200%;
 }
 
 .hero .btn {
@@ -94,7 +155,7 @@ header .contact-button :hover {
 .container {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -111,21 +172,12 @@ header .contact-button :hover {
     flex-wrap: wrap;
 }
 
-.skills-expertise {
-    text-align: center;
-    padding: 2rem 0;
+.skills-container h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    align-items: center;
 }
 
-.skills-expertise .container {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-.skills-title {
-    color: #6c63ff;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-}
 .skill-card {
     flex: 1;
     max-width: 25%;
@@ -198,22 +250,7 @@ header .contact-button :hover {
     border-radius: 5px;
     text-align: center;
 }
-.contacts {
-    background-color: #f0f0f0;
-    margin-top: 0;
-    color: #0e0101;
-    font-size: 18px;
-    text-align: center;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-.contacts h1 {
-    margin-bottom: 10px;
-    font-size: 24px;
-}
+
 .contact form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -240,6 +277,17 @@ header .contact-button :hover {
     margin-bottom: 0.5rem;
 }
 
+.contact form button {
+    grid-column: 1 / -1;
+    padding: 0.75rem;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
 footer {
     background-color: #f8f9fa;
     padding: 2rem 0;
@@ -251,6 +299,7 @@ footer .footer-nav ul {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 footer .footer-nav a {
